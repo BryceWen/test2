@@ -6,16 +6,19 @@ VAR
 a : INT;
 b : INT;
 c : INT;
+d : INT;
 
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[c := a+b;
+d := c+a;
 ]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
       <LineId Id="11" Count="0" />
+      <LineId Id="13" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
